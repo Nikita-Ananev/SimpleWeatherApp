@@ -35,6 +35,7 @@ depends-top-level:
 - "MainViewControllerDelegate"
 - "Network"
 - "PopUpViewController"
+- !private "StringLiteralType"
 - "UIButton"
 - "UIImage"
 - "UIImageView"
@@ -996,6 +997,7 @@ depends-member:
 - !private ["s24_DestructorSafeContainerP", "last"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s26_ExpressibleByImageLiteralP", "init"]
 - !private ["s19_HasContiguousBytesP", "last"]
@@ -1158,6 +1160,7 @@ depends-nominal:
 - !private "s24_DestructorSafeContainerP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s26_ExpressibleByImageLiteralP"
 - !private "s19_HasContiguousBytesP"

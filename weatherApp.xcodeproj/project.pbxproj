@@ -64,10 +64,10 @@
 		4D5C4B2C25B8805C00974E1B /* weatherApp */ = {
 			isa = PBXGroup;
 			children = (
-				4D5C4B4225B8808000974E1B /* Support files */,
 				4D5C4B4525B8814700974E1B /* Model */,
 				4D5C4B4625B8815E00974E1B /* ViewControllers */,
 				4D5C4B3325B8805C00974E1B /* Main.storyboard */,
+				4D5C4B4225B8808000974E1B /* Support files */,
 				4D5C4B2B25B8805C00974E1B /* Products */,
 			);
 			path = weatherApp;

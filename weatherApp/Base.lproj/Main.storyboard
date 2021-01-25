@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IWc-Yh-cNV">
-                                <rect key="frame" x="304.5" y="772" width="89.5" height="84"/>
+                                <rect key="frame" x="331.5" y="816" width="62.5" height="57"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="IWc-Yh-cNV" secondAttribute="height" multiplier="1:1" id="VTj-R1-fj9"/>
                                 </constraints>
@@ -85,6 +85,19 @@
                                     </label>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1FA-c8-S10">
+                                <rect key="frame" x="20" y="814.5" width="62.5" height="61.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="1FA-c8-S10" secondAttribute="height" multiplier="1:1" id="8Ai-OE-VA5"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" backgroundImage="location" catalog="system">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.15329975470000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="geoButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q7U-KW-tQs"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -92,15 +105,18 @@
                             <constraint firstItem="Vai-GC-D2V" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="78" id="0dp-nM-bUX"/>
                             <constraint firstItem="ifo-5z-U4e" firstAttribute="centerX" secondItem="Vx3-wo-9Np" secondAttribute="centerX" id="2iM-tB-oA6"/>
                             <constraint firstItem="ifo-5z-U4e" firstAttribute="top" secondItem="Vx3-wo-9Np" secondAttribute="bottom" constant="8" symbolic="YES" id="4fh-0P-zXL"/>
-                            <constraint firstItem="IWc-Yh-cNV" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.1" id="ALY-on-sRJ"/>
+                            <constraint firstItem="IWc-Yh-cNV" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.07" id="ALY-on-sRJ"/>
                             <constraint firstItem="gKx-hs-Qsy" firstAttribute="top" secondItem="ifo-5z-U4e" secondAttribute="bottom" constant="20" id="Eva-GE-jt9"/>
                             <constraint firstItem="Vai-GC-D2V" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="LM8-82-eVc"/>
                             <constraint firstItem="gKx-hs-Qsy" firstAttribute="centerX" secondItem="ifo-5z-U4e" secondAttribute="centerX" id="Ucl-iO-I7x"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IWc-Yh-cNV" secondAttribute="trailing" constant="20" id="YHG-gb-PBC"/>
                             <constraint firstItem="Vx3-wo-9Np" firstAttribute="centerX" secondItem="Vai-GC-D2V" secondAttribute="centerX" id="ms2-3z-KZ7"/>
                             <constraint firstItem="Vai-GC-D2V" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.223214" id="qmK-HO-6Tg"/>
-                            <constraint firstItem="IWc-Yh-cNV" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-3" id="uRi-Sd-tyy"/>
+                            <constraint firstItem="1FA-c8-S10" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="sLP-rA-W6S"/>
+                            <constraint firstItem="IWc-Yh-cNV" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" constant="-20" id="uRi-Sd-tyy"/>
                             <constraint firstItem="Vx3-wo-9Np" firstAttribute="top" secondItem="Vai-GC-D2V" secondAttribute="bottom" constant="-16" id="xl9-8G-JNd"/>
+                            <constraint firstItem="1FA-c8-S10" firstAttribute="centerY" secondItem="IWc-Yh-cNV" secondAttribute="centerY" id="y47-Fx-QEc"/>
+                            <constraint firstItem="1FA-c8-S10" firstAttribute="height" secondItem="IWc-Yh-cNV" secondAttribute="height" id="ygi-bX-npn"/>
                         </constraints>
                     </view>
                     <connections>
@@ -227,6 +243,7 @@
     <resources>
         <image name="cloud.sun" catalog="system" width="128" height="93"/>
         <image name="info.circle" catalog="system" width="128" height="121"/>
+        <image name="location" catalog="system" width="128" height="121"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

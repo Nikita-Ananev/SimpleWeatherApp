@@ -188,6 +188,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreLocation;
 @import UIKit;
 #endif
 
@@ -223,18 +224,23 @@ SWIFT_CLASS("_TtC10weatherApp11AppDelegate")
 @class UILabel;
 @class UIButton;
 @class UIStoryboardSegue;
+@class CLLocationManager;
+@class CLLocation;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC10weatherApp18MainViewController")
-@interface MainViewController : UIViewController
+@interface MainViewController : UIViewController <CLLocationManagerDelegate>
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified weatherLogoLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified tempValueLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified feelsLikeTempValueLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified cityLabel;
 - (void)viewDidLoad;
 - (IBAction)changeCityButtonPressed:(UIButton * _Nonnull)sender;
+- (IBAction)geoButtonPressed:(UIButton * _Nonnull)sender;
 - (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
