@@ -1,11 +1,11 @@
 version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
 options: "4b5c25ddbb1660adbae3ac2a75e96712"
-build_time: [1611613290, 301076000]
+build_time: [1611616631, 813450000]
 inputs:
   "/Users/ananev/Library/Autosave Information/weatherApp/weatherApp/Model/Network.swift": [1611613167, 112012912]
-  "/Users/ananev/Library/Autosave Information/weatherApp/weatherApp/ViewControllers/PopUpViewController.swift": [1611609742, 156490474]
+  "/Users/ananev/Library/Autosave Information/weatherApp/weatherApp/ViewControllers/PopUpViewController.swift": [1611616631, 715944964]
   "/Users/ananev/Library/Autosave Information/weatherApp/weatherApp/Model/WeatherData.swift": [1611322749, 120373211]
   "/Users/ananev/Library/Autosave Information/weatherApp/weatherApp/Model/CurrentWeather.swift": [1611339165, 394864283]
-  "/Users/ananev/Library/Autosave Information/weatherApp/weatherApp/ViewControllers/MainViewController.swift": [1611613290, 195203539]
+  "/Users/ananev/Library/Autosave Information/weatherApp/weatherApp/ViewControllers/MainViewController.swift": [1611616431, 29768542]
   "/Users/ananev/Library/Autosave Information/weatherApp/weatherApp/Support files/AppDelegate.swift": [1611155676, 269346612]
   "/Users/ananev/Library/Autosave Information/weatherApp/weatherApp/Support files/SceneDelegate.swift": [1611155676, 285257199]

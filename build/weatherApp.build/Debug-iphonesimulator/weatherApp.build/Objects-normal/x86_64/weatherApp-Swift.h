@@ -221,8 +221,8 @@ SWIFT_CLASS("_TtC10weatherApp11AppDelegate")
 @end
 
 @class UIImageView;
-@class UILabel;
 @class UIButton;
+@class UILabel;
 @class UIStoryboardSegue;
 @class CLLocationManager;
 @class CLLocation;
@@ -232,6 +232,8 @@ SWIFT_CLASS("_TtC10weatherApp11AppDelegate")
 SWIFT_CLASS("_TtC10weatherApp18MainViewController")
 @interface MainViewController : UIViewController <CLLocationManagerDelegate>
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified weatherLogoLabel;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified geoButtonLabel;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified searchButtonLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified tempValueLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified feelsLikeTempValueLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified cityLabel;

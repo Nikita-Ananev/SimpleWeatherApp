@@ -122,6 +122,8 @@
                     <connections>
                         <outlet property="cityLabel" destination="gKx-hs-Qsy" id="J58-gi-Jgs"/>
                         <outlet property="feelsLikeTempValueLabel" destination="MSz-ie-w2g" id="lt5-25-xga"/>
+                        <outlet property="geoButtonLabel" destination="1FA-c8-S10" id="MdQ-p6-BvN"/>
+                        <outlet property="searchButtonLabel" destination="IWc-Yh-cNV" id="g5f-Bd-IW5"/>
                         <outlet property="tempValueLabel" destination="vmY-c7-6LG" id="U2n-e0-m0K"/>
                         <outlet property="weatherLogoLabel" destination="Vai-GC-D2V" id="iA1-rz-CN5"/>
                     </connections>
