@@ -20,17 +20,15 @@ class PopUpViewController: UIViewController, UITextFieldDelegate {
     var weatherData: WeatherData?
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         cityNameTextField.delegate = self
         
     }
-    
-    
+
     @IBAction func cancelButtonPressed(_ sender: UIButton) {
         dismiss(animated: true, completion: nil)
     }
+    
     @IBAction func applyButtonPressed(_ sender: UIButton) {
-        
         if let newCurrentWeather = newCurrentWeather {
             delegate?.update(weatherData: newCurrentWeather)
             
@@ -46,37 +44,45 @@ class PopUpViewController: UIViewController, UITextFieldDelegate {
         
     }
     
-    
+    // try to find city
     @objc func searchForKeyword(_ timer: Timer) {
+        
         let keyword = timer.userInfo as! String
-        if keyword.count > 3 {
+        if keyword.count > 2 {
             networkManager.fetchCurrentWeather(city: keyword) { [weak self] currentWeather in
                 if let currentWeather = currentWeather {
                     self?.newCurrentWeather = currentWeather
-                    DispatchQueue.main.async {
-                        self?.statusErrorLabel.text = "We found \(currentWeather.cityName)"
-                        self?.statusImage.image = UIImage(systemName: "checkmark")
-                        self?.statusImage.tintColor = #colorLiteral(red: 0, green: 0.916187942, blue: 0.2306471765, alpha: 1)
-                        self?.applyButtonLabel.isEnabled = true
-                        self?.applyButtonLabel.backgroundColor = #colorLiteral(red: 0.4666666687, green: 0.7647058964, blue: 0.2666666806, alpha: 1)
-                        
-                    }
+                    self?.interfaceAfterSearch(keyword: keyword, isResult: true)
                 } else {
-                    DispatchQueue.main.async {
-                        self?.statusErrorLabel.text = "We can't find \(self?.cityNameTextField.text ?? "error city")"
-                        self?.statusImage.tintColor = #colorLiteral(red: 0.8325281739, green: 0.2449339628, blue: 0.2483051419, alpha: 1)
-                        self?.statusImage.image = UIImage(systemName: "info.circle")
-                        self?.applyButtonLabel.isEnabled = false
-                        self?.applyButtonLabel.backgroundColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
-                        
-                        
-                    }
+                    self?.interfaceAfterSearch(keyword: keyword, isResult: false)
                 }
-            print("Searching for keyword \(keyword)")
             }
         }
     }
-    func updatePopUpUI() {
-        statusErrorLabel.text = "all right"
+    
+    // Customize Interface after search
+    func interfaceAfterSearch(keyword: String, isResult: Bool) {
+        if isResult {
+            DispatchQueue.main.async {
+                self.statusErrorLabel.text = "We found \(keyword)"
+                self.statusImage.image = UIImage(systemName: "checkmark")
+                self.statusImage.tintColor = #colorLiteral(red: 0, green: 0.916187942, blue: 0.2306471765, alpha: 1)
+                self.applyButtonLabel.isEnabled = true
+                self.applyButtonLabel.backgroundColor = #colorLiteral(red: 0.4666666687, green: 0.7647058964, blue: 0.2666666806, alpha: 1)
+            }
+        } else {
+            DispatchQueue.main.async {
+                self.statusErrorLabel.text = "We can't find \(self.cityNameTextField.text ?? "error city")"
+                self.statusImage.tintColor = #colorLiteral(red: 0.8325281739, green: 0.2449339628, blue: 0.2483051419, alpha: 1)
+                self.statusImage.image = UIImage(systemName: "info.circle")
+                self.applyButtonLabel.isEnabled = false
+                self.applyButtonLabel.backgroundColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
+                
+                
+            }
+            
+        }
     }
+
+    
 }

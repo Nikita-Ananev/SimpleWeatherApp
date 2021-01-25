@@ -1,0 +1,521 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WeatherData"
+- "Clouds"
+- "Coord"
+- "Main"
+- "Rain"
+- "Sys"
+- "WeatherElement"
+- "Wind"
+provides-nominal:
+- "10weatherApp11WeatherDataV"
+- "10weatherApp6CloudsV"
+- "10weatherApp5CoordV"
+- "10weatherApp4MainV"
+- "10weatherApp4MainV10CodingKeysO"
+- "10weatherApp4RainV"
+- "10weatherApp4RainV10CodingKeysO"
+- "10weatherApp3SysV"
+- "10weatherApp14WeatherElementV"
+- "10weatherApp14WeatherElementV10CodingKeysO"
+- "10weatherApp4WindV"
+provides-member:
+- ["10weatherApp11WeatherDataV", ""]
+- ["10weatherApp6CloudsV", ""]
+- ["10weatherApp5CoordV", ""]
+- ["10weatherApp4MainV", ""]
+- ["10weatherApp4MainV10CodingKeysO", ""]
+- ["10weatherApp4RainV", ""]
+- ["10weatherApp4RainV10CodingKeysO", ""]
+- ["10weatherApp3SysV", ""]
+- ["10weatherApp14WeatherElementV", ""]
+- ["10weatherApp14WeatherElementV10CodingKeysO", ""]
+- ["10weatherApp4WindV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "Array"
+- "Clouds"
+- "Codable"
+- "CodingKey"
+- "Coord"
+- "Double"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "Main"
+- "Rain"
+- "String"
+- "StringLiteralType"
+- "Sys"
+- "WeatherData"
+- "WeatherElement"
+- "Wind"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["10weatherApp6CloudsV", "CodingKeys"]
+- ["10weatherApp6CloudsV", "Int"]
+- ["10weatherApp6CloudsV", ""]
+- ["10weatherApp6CloudsV", "all"]
+- ["10weatherApp6CloudsV", "encode"]
+- ["10weatherApp6CloudsV", "init"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "Default_RawValue"]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- !private ["s9CodingKeyP", "findStringSwitchCase"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["10weatherApp14WeatherElementV10CodingKeysO", "=="]
+- ["10weatherApp4MainV10CodingKeysO", "=="]
+- ["10weatherApp4RainV10CodingKeysO", "=="]
+- ["10weatherApp14WeatherElementV10CodingKeysO", "Default_RawValue"]
+- ["10weatherApp4MainV10CodingKeysO", "Default_RawValue"]
+- ["10weatherApp4RainV10CodingKeysO", "Default_RawValue"]
+- ["10weatherApp14WeatherElementV10CodingKeysO", "RawValue"]
+- ["10weatherApp4MainV10CodingKeysO", "RawValue"]
+- ["10weatherApp4RainV10CodingKeysO", "RawValue"]
+- ["10weatherApp14WeatherElementV10CodingKeysO", ""]
+- ["10weatherApp4MainV10CodingKeysO", ""]
+- ["10weatherApp4RainV10CodingKeysO", ""]
+- ["10weatherApp14WeatherElementV10CodingKeysO", "_Default_RawValue"]
+- ["10weatherApp4MainV10CodingKeysO", "_Default_RawValue"]
+- ["10weatherApp4RainV10CodingKeysO", "_Default_RawValue"]
+- !private ["10weatherApp14WeatherElementV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["10weatherApp4MainV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["10weatherApp4RainV10CodingKeysO", "_findStringSwitchCase"]
+- ["10weatherApp14WeatherElementV10CodingKeysO", "_rawHashValue"]
+- ["10weatherApp4MainV10CodingKeysO", "_rawHashValue"]
+- ["10weatherApp4RainV10CodingKeysO", "_rawHashValue"]
+- ["10weatherApp14WeatherElementV10CodingKeysO", "debugDescription"]
+- ["10weatherApp4MainV10CodingKeysO", "debugDescription"]
+- ["10weatherApp4RainV10CodingKeysO", "debugDescription"]
+- ["10weatherApp14WeatherElementV10CodingKeysO", "description"]
+- ["10weatherApp4MainV10CodingKeysO", "description"]
+- ["10weatherApp4RainV10CodingKeysO", "description"]
+- ["10weatherApp4MainV10CodingKeysO", "feelsLike"]
+- !private ["10weatherApp14WeatherElementV10CodingKeysO", "findStringSwitchCase"]
+- !private ["10weatherApp4MainV10CodingKeysO", "findStringSwitchCase"]
+- !private ["10weatherApp4RainV10CodingKeysO", "findStringSwitchCase"]
+- ["10weatherApp14WeatherElementV10CodingKeysO", "hash"]
+- ["10weatherApp4MainV10CodingKeysO", "hash"]
+- ["10weatherApp4RainV10CodingKeysO", "hash"]
+- ["10weatherApp14WeatherElementV10CodingKeysO", "hashValue"]
+- ["10weatherApp4MainV10CodingKeysO", "hashValue"]
+- ["10weatherApp4RainV10CodingKeysO", "hashValue"]
+- ["10weatherApp4MainV10CodingKeysO", "humidity"]
+- ["10weatherApp14WeatherElementV10CodingKeysO", "icon"]
+- ["10weatherApp14WeatherElementV10CodingKeysO", "id"]
+- ["10weatherApp14WeatherElementV10CodingKeysO", "init"]
+- ["10weatherApp4MainV10CodingKeysO", "init"]
+- ["10weatherApp4RainV10CodingKeysO", "init"]
+- ["10weatherApp14WeatherElementV10CodingKeysO", "intValue"]
+- ["10weatherApp4MainV10CodingKeysO", "intValue"]
+- ["10weatherApp4RainV10CodingKeysO", "intValue"]
+- ["10weatherApp14WeatherElementV10CodingKeysO", "main"]
+- ["10weatherApp4MainV10CodingKeysO", "pressure"]
+- ["10weatherApp14WeatherElementV10CodingKeysO", "rawValue"]
+- ["10weatherApp4MainV10CodingKeysO", "rawValue"]
+- ["10weatherApp4RainV10CodingKeysO", "rawValue"]
+- ["10weatherApp14WeatherElementV10CodingKeysO", "stringValue"]
+- ["10weatherApp4MainV10CodingKeysO", "stringValue"]
+- ["10weatherApp4RainV10CodingKeysO", "stringValue"]
+- ["10weatherApp4MainV10CodingKeysO", "temp"]
+- ["10weatherApp4MainV10CodingKeysO", "tempMax"]
+- ["10weatherApp4MainV10CodingKeysO", "tempMin"]
+- ["10weatherApp4RainV10CodingKeysO", "the1H"]
+- ["10weatherApp14WeatherElementV10CodingKeysO", "weatherDescription"]
+- ["10weatherApp5CoordV", "CodingKeys"]
+- ["10weatherApp5CoordV", "Double"]
+- ["10weatherApp5CoordV", ""]
+- ["10weatherApp5CoordV", "encode"]
+- ["10weatherApp5CoordV", "init"]
+- ["10weatherApp5CoordV", "lat"]
+- ["10weatherApp5CoordV", "lon"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "Default_RawValue"]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "Default_RawValue"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["Se", "CodingKey"]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "all"]
+- !private ["Se", "base"]
+- !private ["Se", "clouds"]
+- !private ["Se", "cod"]
+- !private ["Se", "coord"]
+- !private ["Se", "country"]
+- !private ["Se", "deg"]
+- !private ["Se", "dt"]
+- ["Se", "encode"]
+- !private ["Se", "feelsLike"]
+- !private ["Se", "findStringSwitchCase"]
+- !private ["Se", "humidity"]
+- !private ["Se", "icon"]
+- !private ["Se", "id"]
+- ["Se", "init"]
+- !private ["Se", "lat"]
+- !private ["Se", "lon"]
+- !private ["Se", "main"]
+- !private ["Se", "name"]
+- !private ["Se", "pressure"]
+- !private ["Se", "rain"]
+- !private ["Se", "speed"]
+- !private ["Se", "sunrise"]
+- !private ["Se", "sunset"]
+- !private ["Se", "sys"]
+- !private ["Se", "temp"]
+- !private ["Se", "tempMax"]
+- !private ["Se", "tempMin"]
+- !private ["Se", "the1H"]
+- !private ["Se", "timezone"]
+- !private ["Se", "type"]
+- !private ["Se", "visibility"]
+- !private ["Se", "weather"]
+- !private ["Se", "weatherDescription"]
+- !private ["Se", "wind"]
+- !private ["s7DecoderP", "container"]
+- ["SE", "CodingKey"]
+- ["SE", ""]
+- !private ["SE", "_findStringSwitchCase"]
+- !private ["SE", "all"]
+- !private ["SE", "base"]
+- !private ["SE", "clouds"]
+- !private ["SE", "cod"]
+- !private ["SE", "coord"]
+- !private ["SE", "country"]
+- !private ["SE", "deg"]
+- !private ["SE", "dt"]
+- ["SE", "encode"]
+- !private ["SE", "feelsLike"]
+- !private ["SE", "findStringSwitchCase"]
+- !private ["SE", "humidity"]
+- !private ["SE", "icon"]
+- !private ["SE", "id"]
+- ["SE", "init"]
+- !private ["SE", "lat"]
+- !private ["SE", "lon"]
+- !private ["SE", "main"]
+- !private ["SE", "name"]
+- !private ["SE", "pressure"]
+- !private ["SE", "rain"]
+- !private ["SE", "speed"]
+- !private ["SE", "sunrise"]
+- !private ["SE", "sunset"]
+- !private ["SE", "sys"]
+- !private ["SE", "temp"]
+- !private ["SE", "tempMax"]
+- !private ["SE", "tempMin"]
+- !private ["SE", "the1H"]
+- !private ["SE", "timezone"]
+- !private ["SE", "type"]
+- !private ["SE", "visibility"]
+- !private ["SE", "weather"]
+- !private ["SE", "weatherDescription"]
+- !private ["SE", "wind"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- ["SQ", "Default_RawValue"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- !private ["SQ", "findStringSwitchCase"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "rawValue"]
+- ["SQ", "stringValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- ["SH", "=="]
+- ["SH", "Default_RawValue"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- !private ["SH", "findStringSwitchCase"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "rawValue"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- ["10weatherApp4MainV", "CodingKey"]
+- ["10weatherApp4MainV", "CodingKeys"]
+- ["10weatherApp4MainV", "Double"]
+- ["10weatherApp4MainV", "Int"]
+- ["10weatherApp4MainV", "String"]
+- ["10weatherApp4MainV", ""]
+- !private ["10weatherApp4MainV", "_findStringSwitchCase"]
+- ["10weatherApp4MainV", "encode"]
+- ["10weatherApp4MainV", "feelsLike"]
+- !private ["10weatherApp4MainV", "findStringSwitchCase"]
+- ["10weatherApp4MainV", "humidity"]
+- ["10weatherApp4MainV", "init"]
+- ["10weatherApp4MainV", "pressure"]
+- ["10weatherApp4MainV", "temp"]
+- ["10weatherApp4MainV", "tempMax"]
+- ["10weatherApp4MainV", "tempMin"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectP", ""]
+- ["10weatherApp4RainV", "CodingKey"]
+- ["10weatherApp4RainV", "CodingKeys"]
+- ["10weatherApp4RainV", "Double"]
+- ["10weatherApp4RainV", "String"]
+- ["10weatherApp4RainV", ""]
+- !private ["10weatherApp4RainV", "_findStringSwitchCase"]
+- ["10weatherApp4RainV", "encode"]
+- !private ["10weatherApp4RainV", "findStringSwitchCase"]
+- ["10weatherApp4RainV", "init"]
+- ["10weatherApp4RainV", "the1H"]
+- ["SY", "=="]
+- ["SY", "Default_RawValue"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- !private ["SY", "findStringSwitchCase"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- ["10weatherApp3SysV", "CodingKeys"]
+- ["10weatherApp3SysV", "Int"]
+- ["10weatherApp3SysV", "String"]
+- ["10weatherApp3SysV", ""]
+- ["10weatherApp3SysV", "country"]
+- ["10weatherApp3SysV", "encode"]
+- ["10weatherApp3SysV", "id"]
+- ["10weatherApp3SysV", "init"]
+- ["10weatherApp3SysV", "sunrise"]
+- ["10weatherApp3SysV", "sunset"]
+- ["10weatherApp3SysV", "type"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["10weatherApp11WeatherDataV", "Clouds"]
+- ["10weatherApp11WeatherDataV", "CodingKeys"]
+- ["10weatherApp11WeatherDataV", "Coord"]
+- ["10weatherApp11WeatherDataV", "Int"]
+- ["10weatherApp11WeatherDataV", "Main"]
+- ["10weatherApp11WeatherDataV", "Rain"]
+- ["10weatherApp11WeatherDataV", "String"]
+- ["10weatherApp11WeatherDataV", "Sys"]
+- ["10weatherApp11WeatherDataV", "WeatherElement"]
+- ["10weatherApp11WeatherDataV", "Wind"]
+- ["10weatherApp11WeatherDataV", ""]
+- ["10weatherApp11WeatherDataV", "base"]
+- ["10weatherApp11WeatherDataV", "clouds"]
+- ["10weatherApp11WeatherDataV", "cod"]
+- ["10weatherApp11WeatherDataV", "coord"]
+- ["10weatherApp11WeatherDataV", "dt"]
+- ["10weatherApp11WeatherDataV", "encode"]
+- ["10weatherApp11WeatherDataV", "id"]
+- ["10weatherApp11WeatherDataV", "init"]
+- ["10weatherApp11WeatherDataV", "main"]
+- ["10weatherApp11WeatherDataV", "name"]
+- ["10weatherApp11WeatherDataV", "rain"]
+- ["10weatherApp11WeatherDataV", "sys"]
+- ["10weatherApp11WeatherDataV", "timezone"]
+- ["10weatherApp11WeatherDataV", "visibility"]
+- ["10weatherApp11WeatherDataV", "weather"]
+- ["10weatherApp11WeatherDataV", "wind"]
+- ["10weatherApp14WeatherElementV", "CodingKey"]
+- ["10weatherApp14WeatherElementV", "CodingKeys"]
+- ["10weatherApp14WeatherElementV", "Int"]
+- ["10weatherApp14WeatherElementV", "String"]
+- ["10weatherApp14WeatherElementV", ""]
+- !private ["10weatherApp14WeatherElementV", "_findStringSwitchCase"]
+- ["10weatherApp14WeatherElementV", "encode"]
+- !private ["10weatherApp14WeatherElementV", "findStringSwitchCase"]
+- ["10weatherApp14WeatherElementV", "icon"]
+- ["10weatherApp14WeatherElementV", "id"]
+- ["10weatherApp14WeatherElementV", "init"]
+- ["10weatherApp14WeatherElementV", "main"]
+- ["10weatherApp14WeatherElementV", "weatherDescription"]
+- ["10weatherApp4WindV", "CodingKeys"]
+- ["10weatherApp4WindV", "Double"]
+- ["10weatherApp4WindV", "Int"]
+- ["10weatherApp4WindV", ""]
+- ["10weatherApp4WindV", "deg"]
+- ["10weatherApp4WindV", "encode"]
+- ["10weatherApp4WindV", "init"]
+- ["10weatherApp4WindV", "speed"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- "10weatherApp6CloudsV"
+- "s9CodingKeyP"
+- "10weatherApp14WeatherElementV10CodingKeysO"
+- "10weatherApp4MainV10CodingKeysO"
+- "10weatherApp4RainV10CodingKeysO"
+- "10weatherApp14WeatherElementV10CodingKeysO"
+- "10weatherApp4MainV10CodingKeysO"
+- "10weatherApp4RainV10CodingKeysO"
+- "10weatherApp14WeatherElementV10CodingKeysO"
+- "10weatherApp4MainV10CodingKeysO"
+- "10weatherApp4RainV10CodingKeysO"
+- "10weatherApp14WeatherElementV10CodingKeysO"
+- "10weatherApp4MainV10CodingKeysO"
+- "10weatherApp4RainV10CodingKeysO"
+- "10weatherApp14WeatherElementV10CodingKeysO"
+- "10weatherApp4MainV10CodingKeysO"
+- "10weatherApp4RainV10CodingKeysO"
+- !private "10weatherApp14WeatherElementV10CodingKeysO"
+- !private "10weatherApp4MainV10CodingKeysO"
+- !private "10weatherApp4RainV10CodingKeysO"
+- "10weatherApp14WeatherElementV10CodingKeysO"
+- "10weatherApp4MainV10CodingKeysO"
+- "10weatherApp4RainV10CodingKeysO"
+- "10weatherApp14WeatherElementV10CodingKeysO"
+- "10weatherApp4MainV10CodingKeysO"
+- "10weatherApp4RainV10CodingKeysO"
+- "10weatherApp14WeatherElementV10CodingKeysO"
+- "10weatherApp4MainV10CodingKeysO"
+- "10weatherApp4RainV10CodingKeysO"
+- "10weatherApp4MainV10CodingKeysO"
+- !private "10weatherApp14WeatherElementV10CodingKeysO"
+- !private "10weatherApp4MainV10CodingKeysO"
+- !private "10weatherApp4RainV10CodingKeysO"
+- "10weatherApp14WeatherElementV10CodingKeysO"
+- "10weatherApp4MainV10CodingKeysO"
+- "10weatherApp4RainV10CodingKeysO"
+- "10weatherApp14WeatherElementV10CodingKeysO"
+- "10weatherApp4MainV10CodingKeysO"
+- "10weatherApp4RainV10CodingKeysO"
+- "10weatherApp4MainV10CodingKeysO"
+- "10weatherApp14WeatherElementV10CodingKeysO"
+- "10weatherApp14WeatherElementV10CodingKeysO"
+- "10weatherApp14WeatherElementV10CodingKeysO"
+- "10weatherApp4MainV10CodingKeysO"
+- "10weatherApp4RainV10CodingKeysO"
+- "10weatherApp14WeatherElementV10CodingKeysO"
+- "10weatherApp4MainV10CodingKeysO"
+- "10weatherApp4RainV10CodingKeysO"
+- "10weatherApp14WeatherElementV10CodingKeysO"
+- "10weatherApp4MainV10CodingKeysO"
+- "10weatherApp14WeatherElementV10CodingKeysO"
+- "10weatherApp4MainV10CodingKeysO"
+- "10weatherApp4RainV10CodingKeysO"
+- "10weatherApp14WeatherElementV10CodingKeysO"
+- "10weatherApp4MainV10CodingKeysO"
+- "10weatherApp4RainV10CodingKeysO"
+- "10weatherApp4MainV10CodingKeysO"
+- "10weatherApp4RainV10CodingKeysO"
+- "10weatherApp14WeatherElementV10CodingKeysO"
+- "10weatherApp5CoordV"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "SH"
+- !private "s6HasherV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "10weatherApp4MainV"
+- "So8NSCodingP"
+- "So8NSObjectP"
+- "10weatherApp4RainV"
+- "SY"
+- "10weatherApp3SysV"
+- "So18UIFocusEnvironmentP"
+- "10weatherApp11WeatherDataV"
+- "10weatherApp14WeatherElementV"
+- "10weatherApp4WindV"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1bb8b48f5de91fd6d94153479bba340b"

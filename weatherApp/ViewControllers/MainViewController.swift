@@ -41,6 +41,12 @@ class MainViewController: UIViewController, MainViewControllerDelegate {
            guard let destination = segue.destination as? PopUpViewController else { return }
            destination.delegate = self
        }
+    
+    
+    
+    
+    
+    
     func update(weatherData: CurrentWeather) {
         DispatchQueue.main.async {
             self.tempValueLabel.text = weatherData.tempString
