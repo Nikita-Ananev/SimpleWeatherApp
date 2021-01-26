@@ -1,5 +1,5 @@
 # SimpleWeatherApp
 
-This is simple weather app
+This is simple weather app :)
 
 MVC, CoreLocation, work with API by URLSession
