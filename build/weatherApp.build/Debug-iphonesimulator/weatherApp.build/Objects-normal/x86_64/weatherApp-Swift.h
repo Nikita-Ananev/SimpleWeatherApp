@@ -247,11 +247,13 @@ SWIFT_CLASS("_TtC10weatherApp18MainViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIView;
 @class UITextField;
 @class NSTimer;
 
 SWIFT_CLASS("_TtC10weatherApp19PopUpViewController")
 @interface PopUpViewController : UIViewController <UITextFieldDelegate>
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified backgroundViewLabel;
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified cityNameTextField;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified statusImage;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified statusErrorLabel;
@@ -279,6 +281,8 @@ SWIFT_CLASS("_TtC10weatherApp13SceneDelegate")
 - (void)sceneDidEnterBackground:(UIScene * _Nonnull)scene;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop

@@ -12,6 +12,7 @@ class PopUpViewController: UIViewController, UITextFieldDelegate {
     var searchTimer: Timer?
     let networkManager = Network()
     var newCurrentWeather: CurrentWeather?
+    @IBOutlet weak var backgroundViewLabel: UIView!
     @IBOutlet weak var cityNameTextField: UITextField!
     @IBOutlet weak var statusImage: UIImageView!
     @IBOutlet weak var statusErrorLabel: UILabel!
@@ -20,6 +21,8 @@ class PopUpViewController: UIViewController, UITextFieldDelegate {
     var weatherData: WeatherData?
     override func viewDidLoad() {
         super.viewDidLoad()
+        applyButtonLabel.addCornerRadius(borderWidth: 0.4, borderColor: #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1), cornerRadius: 5)
+        backgroundViewLabel.addCornerRadius(borderWidth: 0.4, borderColor: #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1), cornerRadius: 5)
         
         networkManager.onComplition = {[weak self] currentWeather in
             if let currentWeather = currentWeather {

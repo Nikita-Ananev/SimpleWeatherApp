@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D1249D725C002AB0067076C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1249D625C002AB0067076C /* Extensions.swift */; };
 		4D52B24325B9A1A700BA5E7D /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D52B24225B9A1A700BA5E7D /* PopUpViewController.swift */; };
 		4D52B24725BB0CC400BA5E7D /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D52B24625BB0CC400BA5E7D /* CurrentWeather.swift */; };
 		4D5C4B2E25B8805C00974E1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5C4B2D25B8805C00974E1B /* AppDelegate.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D1249D625C002AB0067076C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		4D52B24225B9A1A700BA5E7D /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 		4D52B24625BB0CC400BA5E7D /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		4D5C4B2A25B8805C00974E1B /* weatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +93,7 @@
 				4D5C4B4825B8A8A500974E1B /* WeatherData.swift */,
 				4D52B24625BB0CC400BA5E7D /* CurrentWeather.swift */,
 				4D5C4B4B25B8F0BA00974E1B /* Network.swift */,
+				4D1249D625C002AB0067076C /* Extensions.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				4D5C4B4C25B8F0BA00974E1B /* Network.swift in Sources */,
 				4D52B24325B9A1A700BA5E7D /* PopUpViewController.swift in Sources */,
 				4D5C4B4925B8A8A500974E1B /* WeatherData.swift in Sources */,
+				4D1249D725C002AB0067076C /* Extensions.swift in Sources */,
 				4D52B24725BB0CC400BA5E7D /* CurrentWeather.swift in Sources */,
 				4D5C4B3225B8805C00974E1B /* MainViewController.swift in Sources */,
 				4D5C4B2E25B8805C00974E1B /* AppDelegate.swift in Sources */,
